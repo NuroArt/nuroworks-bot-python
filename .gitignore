@@ -1,0 +1,20 @@
+# Secrets
+.env
+*.env
+
+# Local database — contains real user chat IDs, never commit
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
